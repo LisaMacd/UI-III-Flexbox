@@ -70,8 +70,81 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	}
 
-	button {
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.navigation nav a {
+	text-decoration: none;
+	color: lightgrey;
+	margin-right: 50px;
+}
+
+header {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: space-between;
+	align-items: centerd;
+}
+
+header h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+header button {
 		font-size: 15px;
 		padding: 5px 40px;
 		margin-top: 5px;
 	}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0px;
+}
+
+.top-text {
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between
+}
+
+
+.text-content1 {
+	width: 360px;
+}
+
+.text-content2 {
+	width: 360px;
+}
+
+.bottom-text {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between
+}
+
+.text-content3 {
+	width: 270px;
+}
+
+.text-content4 {
+	width: 270px;
+}
+
+.text-content5 {
+	width: 270px;
+}
+
+.contact {
+	margin: 40px 0px;
+}
+
+footer {
+	text-align: center;
+}
