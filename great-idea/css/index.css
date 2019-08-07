@@ -63,4 +63,15 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	max-width: 876px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	}
+
+	button {
+		font-size: 15px;
+		padding: 5px 40px;
+		margin-top: 5px;
+	}
