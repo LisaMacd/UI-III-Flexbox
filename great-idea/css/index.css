@@ -91,8 +91,13 @@ header {
 	align-items: centerd;
 }
 
+.header-text {
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
 header h1 {
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 }
 
@@ -100,6 +105,7 @@ header button {
 		font-size: 15px;
 		padding: 5px 40px;
 		margin-top: 5px;
+		margin-left: 25px;
 	}
 
 .main-content {
@@ -147,4 +153,25 @@ header button {
 
 footer {
 	text-align: center;
+}
+
+/* Services css */
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-header-img {
+	margin: 40px 0px;
+}
+
+.header-services-text {
+	margin-bottom: 40px;
+}
+
+.services-main-content {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0px;
 }
