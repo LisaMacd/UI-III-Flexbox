@@ -63,4 +63,176 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	max-width: 876px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	}
+
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.navigation nav a {
+	text-decoration: none;
+	color: lightgrey;
+	margin-right: 50px;
+}
+
+header {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: space-between;
+	align-items: centerd;
+}
+
+.header-text {
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+header h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+header button {
+		font-size: 15px;
+		padding: 5px 40px;
+		margin-top: 5px;
+		margin-left: 25px;
+	}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0px;
+}
+
+.top-text {
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between
+}
+
+
+.text-content1 {
+	width: 360px;
+}
+
+.text-content2 {
+	width: 360px;
+}
+
+.bottom-text {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between
+}
+
+.text-content3 {
+	width: 270px;
+}
+
+.text-content4 {
+	width: 270px;
+}
+
+.text-content5 {
+	width: 270px;
+}
+
+.contact {
+	margin: 40px 0px;
+}
+
+footer {
+	text-align: center;
+}
+
+/* Services css */
+
+/* Services header */
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-header-img {
+	margin: 40px 0px;
+}
+
+.header-services-text {
+	margin-bottom: 40px;
+}
+
+/* Services main-content */
+
+.services-main-content {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0px;
+}
+
+.services1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.box {
+	width: 420px;
+	height: 210px;;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.text {
+	margin: 20px;
+}
+
+/* services-button */
+
+.services-button {
+	margin: 10px;
+	padding: 5px 25px;
+}
+
+.services2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.services3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+
+/* Services facts */
+
+.facts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 40px 0px;
+}
+
+.facts-text {
+	width: 410px;
+}
+
+.services-info-img {
+	width: 410px;
+}

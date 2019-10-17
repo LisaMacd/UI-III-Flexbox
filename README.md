@@ -1,3 +1,7 @@
+# Git for Web Development Project - Part two 
+
+Lisa Meyer
+
 # User Interface Project II: Great Idea Web Page With Flexbox
 
 Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flex box module.  If you didn't finish yesterday's assignment, just start from scratch or use the solution code provided to you.
